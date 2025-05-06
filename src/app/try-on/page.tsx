@@ -117,12 +117,12 @@ export default function TryOnPage() {
   };
 
   const clothingItems: ClothingItem[] = [
-    { id: '1', name: 'Classic T-Shirt', category: 'Tops', image: 'https://picsum.photos/seed/tshirt/300/400', dataAiHint: 'white t-shirt', colors: ['Red', 'Blue', 'Black'] },
-    { id: '2', name: 'Denim Jeans', category: 'Pants', image: 'https://picsum.photos/seed/jeans/300/400', dataAiHint: 'blue jeans', colors: ['Blue', 'Black'] },
-    { id: '3', name: 'Summer Dress', category: 'Dresses', image: 'https://picsum.photos/seed/dress/300/400', dataAiHint: 'floral dress', colors: ['Yellow', 'Pink', 'White'] },
-    { id: '4', name: 'Formal Shirt', category: 'Tops', image: 'https://picsum.photos/seed/formalshirt/300/400', dataAiHint: 'dress shirt', colors: ['White', 'Light Blue'] },
-    { id: '5', name: 'Chino Pants', category: 'Pants', image: 'https://picsum.photos/seed/chinopants/300/400', dataAiHint: 'khaki chinos', colors: ['Khaki', 'Navy'] },
-    { id: '6', name: 'Evening Gown', category: 'Dresses', image: 'https://picsum.photos/seed/gown/300/400', dataAiHint: 'red gown', colors: ['Black', 'Red', 'Gold'] },
+    { id: '1', name: 'Classic T-Shirt', category: 'Tops', image: 'https://source.unsplash.com/300x400/?white-t-shirt,clothing', dataAiHint: 'white t-shirt', colors: ['Red', 'Blue', 'Black'] },
+    { id: '2', name: 'Denim Jeans', category: 'Pants', image: 'https://source.unsplash.com/300x400/?blue-jeans,clothing', dataAiHint: 'blue jeans', colors: ['Blue', 'Black'] },
+    { id: '3', name: 'Summer Dress', category: 'Dresses', image: 'https://source.unsplash.com/300x400/?floral-dress,clothing', dataAiHint: 'floral dress', colors: ['Yellow', 'Pink', 'White'] },
+    { id: '4', name: 'Formal Shirt', category: 'Tops', image: 'https://source.unsplash.com/300x400/?dress-shirt,clothing', dataAiHint: 'dress shirt', colors: ['White', 'Light Blue'] },
+    { id: '5', name: 'Chino Pants', category: 'Pants', image: 'https://source.unsplash.com/300x400/?khaki-chinos,clothing', dataAiHint: 'khaki chinos', colors: ['Khaki', 'Navy'] },
+    { id: '6', name: 'Evening Gown', category: 'Dresses', image: 'https://source.unsplash.com/300x400/?red-gown,clothing', dataAiHint: 'red gown', colors: ['Black', 'Red', 'Gold'] },
   ];
 
 
