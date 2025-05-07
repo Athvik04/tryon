@@ -115,14 +115,13 @@ export default function TryOnPage() {
       setIsLoading(false);
     }
   };
-
   const clothingItems: ClothingItem[] = [
-    { id: '1', name: 'Classic T-Shirt', category: 'Tops', image: 'https://source.unsplash.com/300x400/?white-t-shirt,clothing', dataAiHint: 'white t-shirt', colors: ['Red', 'Blue', 'Black'] },
-    { id: '2', name: 'Denim Jeans', category: 'Pants', image: 'https://source.unsplash.com/300x400/?blue-jeans,clothing', dataAiHint: 'blue jeans', colors: ['Blue', 'Black'] },
-    { id: '3', name: 'Summer Dress', category: 'Dresses', image: 'https://source.unsplash.com/300x400/?floral-dress,clothing', dataAiHint: 'floral dress', colors: ['Yellow', 'Pink', 'White'] },
-    { id: '4', name: 'Formal Shirt', category: 'Tops', image: 'https://source.unsplash.com/300x400/?dress-shirt,clothing', dataAiHint: 'dress shirt', colors: ['White', 'Light Blue'] },
-    { id: '5', name: 'Chino Pants', category: 'Pants', image: 'https://source.unsplash.com/300x400/?khaki-chinos,clothing', dataAiHint: 'khaki chinos', colors: ['Khaki', 'Navy'] },
-    { id: '6', name: 'Evening Gown', category: 'Dresses', image: 'https://source.unsplash.com/300x400/?red-gown,clothing', dataAiHint: 'red gown', colors: ['Black', 'Red', 'Gold'] },
+    { id: '1', name: 'Beige Shirt', category: 'Shirt', image: '/properOutfit/shirts/beige.jpg', dataAiHint: 'white t-shirt', colors: ['Red', 'Blue', 'Black'] },
+    { id: '2', name: 'Denim Jeans', category: 'Pants', image: '/properOutfit/pant/blackpant.png', dataAiHint: 'blue jeans', colors: ['Blue', 'Black'] },
+    { id: '3', name: 'floral', category: 'Shirts design', image: '/properOutfit/shirts/floral.png', dataAiHint: 'floral dress', colors: ['Yellow', 'Pink', 'White'] },
+    { id: '4', name: 'Black Shirt', category: 'Shirt', image: '/properOutfit/shirts/black.jpg', dataAiHint: 'dress shirt', colors: ['White', 'Light Blue'] },
+    { id: '5', name: 'Blue Pants', category: 'Pants', image: '/properOutfit/pant/bluepant.png', dataAiHint: 'khaki chinos', colors: ['Khaki', 'Navy'] },
+    { id: '6', name: 'Checks shirt', category: 'Shirts design', image: '/properOutfit/shirts/checks.webp', dataAiHint: 'red gown', colors: ['Black', 'Red', 'Gold'] },
   ];
 
 
@@ -238,7 +237,7 @@ export default function TryOnPage() {
                   const link = document.createElement('a');
                   link.href = resultImage;
                   // Extract filename or generate one
-                  const filename = resultImage.substring(resultImage.lastIndexOf('/') + 1) || 'virtual-try-on.jpg';
+                  const filename = resultImage.substring(resultImage.lastIndexOf('/') + 1) || '/properOutfit/beige,black.png';
                   link.download = filename;
                   document.body.appendChild(link);
                   link.click();
